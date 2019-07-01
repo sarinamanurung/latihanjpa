@@ -44,8 +44,8 @@ public class EmployeDAOImpl  implements EmployeDAO {
 	@Override
 	public List<Employe>getByName (String name) {
 		return entityManager.createNativeQuery("SELECT * FROM employe WHERE ")
-		return entityManager.createQuery("select e from employe e where e.name")
-		
+//		return entityManager.createQuery("select e from employe e where e.name")
+	
 	}
 
 }
